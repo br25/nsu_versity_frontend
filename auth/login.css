@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+.center {
+	position: absolute;
+	width: 60%;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255,255,255,0.4);
+	padding: 40px 80px;
+	border-radius: 15px;
+	box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+}
+
+
+.loginPic {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
